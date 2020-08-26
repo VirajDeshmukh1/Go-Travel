@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/go-travel",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [{
+      "source": "**",
+      "destination": "/index.html"
+    }]
+  }
+}
